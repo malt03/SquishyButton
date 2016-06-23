@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8532BE97B1DC369E5490374C /* Pods_SquishyButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D41D7E8D4E3EBC2F3E40B21 /* Pods_SquishyButton_Tests.framework */; };
+		ED7D37F31D1BC115002D53E5 /* KTouchPointerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7D37F21D1BC115002D53E5 /* KTouchPointerWindow.m */; };
 		FE20AB0BC7E0D06B4160C0CC /* Pods_SquishyButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504FB70C41E667F58DAD752C /* Pods_SquishyButton_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,9 @@
 		6D41D7E8D4E3EBC2F3E40B21 /* Pods_SquishyButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishyButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE16D0B213E60697225B96C /* SquishyButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SquishyButton.podspec; path = ../SquishyButton.podspec; sourceTree = "<group>"; };
 		ACE95FBA9FE2384FB130EDB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ED7D37F01D1BC113002D53E5 /* SquishyButton_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SquishyButton_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED7D37F11D1BC115002D53E5 /* KTouchPointerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTouchPointerWindow.h; path = ../../KTouchPointerWindow/KTouchPointerWindow/KTouchPointerWindow.h; sourceTree = "<group>"; };
+		ED7D37F21D1BC115002D53E5 /* KTouchPointerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTouchPointerWindow.m; path = ../../KTouchPointerWindow/KTouchPointerWindow/KTouchPointerWindow.m; sourceTree = "<group>"; };
 		F216878959FC03B716D76745 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,12 +97,15 @@
 		607FACD21AFB9204008FA782 /* Example for SquishyButton */ = {
 			isa = PBXGroup;
 			children = (
+				ED7D37F11D1BC115002D53E5 /* KTouchPointerWindow.h */,
+				ED7D37F21D1BC115002D53E5 /* KTouchPointerWindow.m */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				ED7D37F01D1BC113002D53E5 /* SquishyButton_Example-Bridging-Header.h */,
 			);
 			name = "Example for SquishyButton";
 			path = SquishyButton;
@@ -209,7 +216,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -360,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				ED7D37F31D1BC115002D53E5 /* KTouchPointerWindow.m in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,11 +497,14 @@
 			baseConfigurationReference = 4746E632558DE8ACAACB28C3 /* Pods-SquishyButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SquishyButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SquishyButton/SquishyButton_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -502,11 +513,13 @@
 			baseConfigurationReference = 1595F2F3D6A3B0CDD7E03D3F /* Pods-SquishyButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SquishyButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SquishyButton/SquishyButton_Example-Bridging-Header.h";
 			};
 			name = Release;
 		};
