@@ -2,10 +2,9 @@ use_frameworks!
 
 target 'SquishyButton_Example' do
   pod 'SquishyButton', :path => '../'
+  pod 'BugImageCreator'
 
   target 'SquishyButton_Tests' do
     inherit! :search_paths
-
-    
   end
 end

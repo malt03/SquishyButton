@@ -7,18 +7,14 @@
 //
 
 import UIKit
+import SquishyButton
+import BugImageCreator
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+  @IBOutlet weak var button: SquishyButton! {
+    didSet {
+      button.setImage(BugImageCreator.create(size: 30, lineWidth: 1, color: .whiteColor()), forState: .Normal)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+  }
 }
-

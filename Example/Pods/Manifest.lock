@@ -1,7 +1,9 @@
 PODS:
+  - BugImageCreator (0.3.0)
   - SquishyButton (0.1.0)
 
 DEPENDENCIES:
+  - BugImageCreator
   - SquishyButton (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  BugImageCreator: df4712f25538333550477121b5499a0aaf46479f
   SquishyButton: 19036bc26ccb6fbf03cf95f5453aee588fe07d9f
 
-PODFILE CHECKSUM: 191351d01b2d0d995dd4b6cf276dd731e4514e62
+PODFILE CHECKSUM: b60af831b21d09cd9a860dd59fa2ba6818b0f581
 
 COCOAPODS: 1.0.1

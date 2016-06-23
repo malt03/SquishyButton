@@ -7,44 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085DD4DDFA2C0D4456164C97BEC5B968 /* SquishyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D925647476A6DF14D37CB8D3B93CC5BA /* SquishyButton-dummy.m */; };
-		1617FA1C65C94EF72B2A0E3E42146C2D /* SquishyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A35FB34A0B1E43C5EFBF6AFA9E1EDBEB /* SquishyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		668EDF2E6EA0013DD97103609098458F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2495174F35213BBE779C89B6BB07CE1E /* SquishyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37926F3D655B3E3D1F04264FBD2C63D1 /* SquishyButton.swift */; };
+		696B4B1B2D8074937037BA19E332D07C /* BugImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CAEF088F0876E82F9BF7B1D7860A2 /* BugImageCreator.swift */; };
+		6E56CB8CCD25421F121C7E8BBE8AE21B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		71F0B2998F2A545A5CD349DC580CB3C7 /* SquishyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D925647476A6DF14D37CB8D3B93CC5BA /* SquishyButton-dummy.m */; };
 		7A554848F63F034E69E03E6152D103AA /* Pods-SquishyButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 426143A3954D8E7A06FAC216361CB5A5 /* Pods-SquishyButton_Tests-dummy.m */; };
+		91B13D4ED351CB8DFA791621490E9088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		994E972ABDE04931A192717AE01B1CB5 /* SquishyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A35FB34A0B1E43C5EFBF6AFA9E1EDBEB /* SquishyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A20CEDCE199D4B2FD582EDDA83B1A428 /* Pods-SquishyButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDDF60D1335E3F82FDCFBD0311D875A /* Pods-SquishyButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2768A3A2CE31264F28686BDA52A56DC /* Pods-SquishyButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33BA519806EAC5F25B23896141FF7BB3 /* Pods-SquishyButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A87949441ED87BF9A0ECA3184058D990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		AD08F4344ECD809EC8B667958DF2C618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C0F70C610007BF9002277A9AF316207D /* Pods-SquishyButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDDF60D1335E3F82FDCFBD0311D875A /* Pods-SquishyButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBC2C2B3C1A401EFBE6A68164CA67AA0 /* Pods-SquishyButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2894D7E050AE000AA45DC6E9B1456DF5 /* Pods-SquishyButton_Example-dummy.m */; };
-		ED7D37C61D1BB7B2002D53E5 /* SquishyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7D37C41D1BB7AE002D53E5 /* SquishyButton.swift */; };
+		ACF2DF1DB131BACD680BAD7DC9F184B1 /* BugImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0885FD303F7499A77566A0A4B8F98 /* BugImageView.swift */; };
+		BF8DE0E55401CDBEC91F30DCFA123942 /* BugImageCreator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 378926E1E1EC3338E68D2A5D96B6A504 /* BugImageCreator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4C7769B2DE1220E607E6F4CB9E6256F /* Pods-SquishyButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2894D7E050AE000AA45DC6E9B1456DF5 /* Pods-SquishyButton_Example-dummy.m */; };
+		D7B3B4A639BA0E45302C7B0658E8AF32 /* BugImageCreator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA65442062F310AE01BF9CAF0BF9DBA8 /* BugImageCreator-dummy.m */; };
+		FA5631C23CC6FE35144A98EFF75CB68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D210B203F04D9F596998B6CF025DE9E /* PBXContainerItemProxy */ = {
+		0623E23B22FD9B36CFA3E2C50C14E95C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 606E06E147DE1A0DB6DB949212C68594;
+			remoteGlobalIDString = 2933FF347F55024C3807DDAFF1EC5AA7;
+			remoteInfo = BugImageCreator;
+		};
+		4EF231A8B9C202CBBD9F26D89139D969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE3E3CF7810A20C1F5E7A3806635127;
 			remoteInfo = SquishyButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		109EEEE8533E5E9C5D8FBB993C01162A /* Pods-SquishyButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SquishyButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13D8C20A27232E5899281F0C79659549 /* BugImageCreator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BugImageCreator.xcconfig; sourceTree = "<group>"; };
+		20E834E890CB1042BE2D5E3FCDF4B4CB /* SquishyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SquishyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2894D7E050AE000AA45DC6E9B1456DF5 /* Pods-SquishyButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SquishyButton_Example-dummy.m"; sourceTree = "<group>"; };
 		2CA6D9E02AA927F9B64D6A8B5140F2CD /* Pods-SquishyButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquishyButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1CAA2E2FC7D4E4ED0E1E8F9B61E6BB /* Pods_SquishyButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishyButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CAA275695EA62D45346E8F3DFF9D9B /* Pods-SquishyButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SquishyButton_Example.modulemap"; sourceTree = "<group>"; };
 		33BA519806EAC5F25B23896141FF7BB3 /* Pods-SquishyButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SquishyButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		378926E1E1EC3338E68D2A5D96B6A504 /* BugImageCreator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BugImageCreator-umbrella.h"; sourceTree = "<group>"; };
+		37926F3D655B3E3D1F04264FBD2C63D1 /* SquishyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SquishyButton.swift; sourceTree = "<group>"; };
 		426143A3954D8E7A06FAC216361CB5A5 /* Pods-SquishyButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SquishyButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		466B370A5EB236EDE43BCDE4CB7DA924 /* BugImageCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BugImageCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4741209A8B4D07E1CCEC89D3276804A9 /* Pods-SquishyButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquishyButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		50B9D55BAB973F5D9A8A67B0A994FCDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A921D2F7511A6D0F4A63E74150D307A /* Pods-SquishyButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SquishyButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D7CAEF088F0876E82F9BF7B1D7860A2 /* BugImageCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BugImageCreator.swift; path = BugImageCreator/Classes/BugImageCreator.swift; sourceTree = "<group>"; };
 		706A787E63274D5012B3E89A02727548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707CE97B38B92FBDBCD41AD488714637 /* Pods-SquishyButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquishyButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		85BFBEB9C08493DE1BD59E6E87D7C2B3 /* Pods_SquishyButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishyButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C6AFAEC0B407F65E8C7F6E58F00797D /* Pods_SquishyButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishyButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADC1D510D04AE769F3FE4FF83DB364B /* Pods_SquishyButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishyButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9216EB4987649FC8C6201791D9B1096D /* BugImageCreator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BugImageCreator-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AACBCD7A8581BDD699856247BC3A1A2 /* Pods-SquishyButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquishyButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A35FB34A0B1E43C5EFBF6AFA9E1EDBEB /* SquishyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquishyButton-umbrella.h"; sourceTree = "<group>"; };
+		A3F0885FD303F7499A77566A0A4B8F98 /* BugImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BugImageView.swift; path = BugImageCreator/Classes/BugImageView.swift; sourceTree = "<group>"; };
 		A68F48EB7538335BCA7C528B17A86911 /* Pods-SquishyButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquishyButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B47211353852DCD89AD9A63CC8892624 /* SquishyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquishyButton-prefix.pch"; sourceTree = "<group>"; };
 		BB7EF27B2D1A161FD03FCC6318A4D3F8 /* Pods-SquishyButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquishyButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,11 +73,11 @@
 		C8C59F5B58DD19E49E72DA08D7FAA103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D925647476A6DF14D37CB8D3B93CC5BA /* SquishyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SquishyButton-dummy.m"; sourceTree = "<group>"; };
+		DA65442062F310AE01BF9CAF0BF9DBA8 /* BugImageCreator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BugImageCreator-dummy.m"; sourceTree = "<group>"; };
 		DBDDF60D1335E3F82FDCFBD0311D875A /* Pods-SquishyButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SquishyButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		E3775F0878C8C372821EA0E83DEF44ED /* BugImageCreator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BugImageCreator.modulemap; sourceTree = "<group>"; };
 		E56183A9295E93FBFFC995675A78E960 /* Pods-SquishyButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SquishyButton_Tests.modulemap"; sourceTree = "<group>"; };
 		E7AA51F0CE95A23D558D73296BEDCDEC /* Pods-SquishyButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquishyButton_Example-resources.sh"; sourceTree = "<group>"; };
-		EBC4A2B33B482952C3AFD2BF32424130 /* SquishyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SquishyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED7D37C41D1BB7AE002D53E5 /* SquishyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquishyButton.swift; sourceTree = "<group>"; };
 		EFBDEB51A61849F1B079CF825053AA5C /* SquishyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SquishyButton.xcconfig; sourceTree = "<group>"; };
 		F05D740C181277F29D072E8EB923CA9C /* Pods-SquishyButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquishyButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F1EB989A32754C27875F86A6BB4C601C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,11 +86,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43A9A4E0E3D005934CED095818CA2906 /* Frameworks */ = {
+		63FBA8486BEF516C32DC3DDB395AFD8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668EDF2E6EA0013DD97103609098458F /* Foundation.framework in Frameworks */,
+				6E56CB8CCD25421F121C7E8BBE8AE21B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,11 +102,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA7CC67F2546CE72DFCFC37E5795A14 /* Frameworks */ = {
+		B7D4226F3FFF8C2BF53C77164241F57B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD08F4344ECD809EC8B667958DF2C618 /* Foundation.framework in Frameworks */,
+				FA5631C23CC6FE35144A98EFF75CB68B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCF9E44653A74F5B60B53816685E9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B13D4ED351CB8DFA791621490E9088 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,15 +161,45 @@
 			path = "Target Support Files/Pods-SquishyButton_Example";
 			sourceTree = "<group>";
 		};
+		6DC48157F3AB577CD8FFE7233086905C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37926F3D655B3E3D1F04264FBD2C63D1 /* SquishyButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EA3EC78164FFF6647B15E210430755E5 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D312344F6D536C45FE185F44826DEE52 /* Products */,
+				A4BE18CFED5FD1CB53094A4BF3B5EF5B /* Pods */,
+				875ACA24A380851A13432A64B52E3E16 /* Products */,
 				F60E1F5D73714A5AB9CDD11DF82F349D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7FB9696962D62E90B2BA8A090F7ED1A5 /* BugImageCreator */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CAEF088F0876E82F9BF7B1D7860A2 /* BugImageCreator.swift */,
+				A3F0885FD303F7499A77566A0A4B8F98 /* BugImageView.swift */,
+				FAB1F698E7DC5B92E8420B01A7E736BC /* Support Files */,
+			);
+			path = BugImageCreator;
+			sourceTree = "<group>";
+		};
+		875ACA24A380851A13432A64B52E3E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466B370A5EB236EDE43BCDE4CB7DA924 /* BugImageCreator.framework */,
+				8ADC1D510D04AE769F3FE4FF83DB364B /* Pods_SquishyButton_Example.framework */,
+				2D1CAA2E2FC7D4E4ED0E1E8F9B61E6BB /* Pods_SquishyButton_Tests.framework */,
+				20E834E890CB1042BE2D5E3FCDF4B4CB /* SquishyButton.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9EBAB27B3BB66248AC2CF943075FBBD2 /* SquishyButton */ = {
@@ -151,6 +210,14 @@
 			);
 			name = SquishyButton;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		A4BE18CFED5FD1CB53094A4BF3B5EF5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FB9696962D62E90B2BA8A090F7ED1A5 /* BugImageCreator */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		AEAD172E3948D3F2839DF65F11CC0DF5 /* Pods-SquishyButton_Tests */ = {
@@ -171,14 +238,6 @@
 			path = "Target Support Files/Pods-SquishyButton_Tests";
 			sourceTree = "<group>";
 		};
-		B2E74E2CFD3617A6A421C534128654D3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				ED7D37C41D1BB7AE002D53E5 /* SquishyButton.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,20 +246,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D312344F6D536C45FE185F44826DEE52 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8C6AFAEC0B407F65E8C7F6E58F00797D /* Pods_SquishyButton_Example.framework */,
-				85BFBEB9C08493DE1BD59E6E87D7C2B3 /* Pods_SquishyButton_Tests.framework */,
-				EBC4A2B33B482952C3AFD2BF32424130 /* SquishyButton.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D7EC335EC0B5B0F1BF0104F3FF6F4987 /* SquishyButton */ = {
 			isa = PBXGroup;
 			children = (
-				B2E74E2CFD3617A6A421C534128654D3 /* Classes */,
+				6DC48157F3AB577CD8FFE7233086905C /* Classes */,
 			);
 			path = SquishyButton;
 			sourceTree = "<group>";
@@ -222,9 +271,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FAB1F698E7DC5B92E8420B01A7E736BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3775F0878C8C372821EA0E83DEF44ED /* BugImageCreator.modulemap */,
+				13D8C20A27232E5899281F0C79659549 /* BugImageCreator.xcconfig */,
+				DA65442062F310AE01BF9CAF0BF9DBA8 /* BugImageCreator-dummy.m */,
+				9216EB4987649FC8C6201791D9B1096D /* BugImageCreator-prefix.pch */,
+				378926E1E1EC3338E68D2A5D96B6A504 /* BugImageCreator-umbrella.h */,
+				50B9D55BAB973F5D9A8A67B0A994FCDB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BugImageCreator";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		03E7DCBAF387F79A89C6BBBB190A8981 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20CEDCE199D4B2FD582EDDA83B1A428 /* Pods-SquishyButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3966E52DC65804DE7FF9F89781732314 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,32 +304,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CCC71C7635C28A07C0DCE261E01626E /* Headers */ = {
+		71A17FC0205FD66364ED053B8D88A903 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1617FA1C65C94EF72B2A0E3E42146C2D /* SquishyButton-umbrella.h in Headers */,
+				BF8DE0E55401CDBEC91F30DCFA123942 /* BugImageCreator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E455C75822EF268D00272810578C6C84 /* Headers */ = {
+		D5B3B1B6F93D93715F959927845D5E1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0F70C610007BF9002277A9AF316207D /* Pods-SquishyButton_Example-umbrella.h in Headers */,
+				994E972ABDE04931A192717AE01B1CB5 /* SquishyButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		606E06E147DE1A0DB6DB949212C68594 /* SquishyButton */ = {
+		2933FF347F55024C3807DDAFF1EC5AA7 /* BugImageCreator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A338306305B972770268A3A79EB3F7B1 /* Build configuration list for PBXNativeTarget "SquishyButton" */;
+			buildConfigurationList = 6CF003C6182D01B8C50B01169E42F4D2 /* Build configuration list for PBXNativeTarget "BugImageCreator" */;
 			buildPhases = (
-				4E1209FACDFF0ACB57EAA3E4A70EADF3 /* Sources */,
-				43A9A4E0E3D005934CED095818CA2906 /* Frameworks */,
-				5CCC71C7635C28A07C0DCE261E01626E /* Headers */,
+				45E71A3E1A659E6E99A81299EAEA2A3A /* Sources */,
+				B7D4226F3FFF8C2BF53C77164241F57B /* Frameworks */,
+				71A17FC0205FD66364ED053B8D88A903 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BugImageCreator;
+			productName = BugImageCreator;
+			productReference = 466B370A5EB236EDE43BCDE4CB7DA924 /* BugImageCreator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFE3E3CF7810A20C1F5E7A3806635127 /* SquishyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0241894A6AA9F1015C4F1398B64FA817 /* Build configuration list for PBXNativeTarget "SquishyButton" */;
+			buildPhases = (
+				60DCF939595AEEC135B2D038BB7412DA /* Sources */,
+				63FBA8486BEF516C32DC3DDB395AFD8D /* Frameworks */,
+				D5B3B1B6F93D93715F959927845D5E1F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -266,7 +354,7 @@
 			);
 			name = SquishyButton;
 			productName = SquishyButton;
-			productReference = EBC4A2B33B482952C3AFD2BF32424130 /* SquishyButton.framework */;
+			productReference = 20E834E890CB1042BE2D5E3FCDF4B4CB /* SquishyButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2A7162F3FF9AB31DBD3F7D45D182C62 /* Pods-SquishyButton_Tests */ = {
@@ -283,25 +371,26 @@
 			);
 			name = "Pods-SquishyButton_Tests";
 			productName = "Pods-SquishyButton_Tests";
-			productReference = 85BFBEB9C08493DE1BD59E6E87D7C2B3 /* Pods_SquishyButton_Tests.framework */;
+			productReference = 2D1CAA2E2FC7D4E4ED0E1E8F9B61E6BB /* Pods_SquishyButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E3F230B425F3087EA290A07EF485CD61 /* Pods-SquishyButton_Example */ = {
+		D6FC23DB7A3C27E7CA3B4771025C4990 /* Pods-SquishyButton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C83B4479FF8D691F1BF7D85A61323D5 /* Build configuration list for PBXNativeTarget "Pods-SquishyButton_Example" */;
+			buildConfigurationList = ACB73B04584759326AD11BF1F194D1B3 /* Build configuration list for PBXNativeTarget "Pods-SquishyButton_Example" */;
 			buildPhases = (
-				D7869E85258E4145DAB686B9BFCE957C /* Sources */,
-				DBA7CC67F2546CE72DFCFC37E5795A14 /* Frameworks */,
-				E455C75822EF268D00272810578C6C84 /* Headers */,
+				A52BF81B766CCBAB14DAED81808F2EBB /* Sources */,
+				BBCF9E44653A74F5B60B53816685E9DE /* Frameworks */,
+				03E7DCBAF387F79A89C6BBBB190A8981 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5D1A74FAAA1A0A8545B1064F1294A70 /* PBXTargetDependency */,
+				9677F20483F0D95CA024626E6A7E5391 /* PBXTargetDependency */,
+				A7F045D28EDA539CF4CAF186E9D83CC9 /* PBXTargetDependency */,
 			);
 			name = "Pods-SquishyButton_Example";
 			productName = "Pods-SquishyButton_Example";
-			productReference = 8C6AFAEC0B407F65E8C7F6E58F00797D /* Pods_SquishyButton_Example.framework */;
+			productReference = 8ADC1D510D04AE769F3FE4FF83DB364B /* Pods_SquishyButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,32 +410,43 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D312344F6D536C45FE185F44826DEE52 /* Products */;
+			productRefGroup = 875ACA24A380851A13432A64B52E3E16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3F230B425F3087EA290A07EF485CD61 /* Pods-SquishyButton_Example */,
+				2933FF347F55024C3807DDAFF1EC5AA7 /* BugImageCreator */,
+				D6FC23DB7A3C27E7CA3B4771025C4990 /* Pods-SquishyButton_Example */,
 				D2A7162F3FF9AB31DBD3F7D45D182C62 /* Pods-SquishyButton_Tests */,
-				606E06E147DE1A0DB6DB949212C68594 /* SquishyButton */,
+				BFE3E3CF7810A20C1F5E7A3806635127 /* SquishyButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E1209FACDFF0ACB57EAA3E4A70EADF3 /* Sources */ = {
+		45E71A3E1A659E6E99A81299EAEA2A3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED7D37C61D1BB7B2002D53E5 /* SquishyButton.swift in Sources */,
-				085DD4DDFA2C0D4456164C97BEC5B968 /* SquishyButton-dummy.m in Sources */,
+				D7B3B4A639BA0E45302C7B0658E8AF32 /* BugImageCreator-dummy.m in Sources */,
+				696B4B1B2D8074937037BA19E332D07C /* BugImageCreator.swift in Sources */,
+				ACF2DF1DB131BACD680BAD7DC9F184B1 /* BugImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7869E85258E4145DAB686B9BFCE957C /* Sources */ = {
+		60DCF939595AEEC135B2D038BB7412DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC2C2B3C1A401EFBE6A68164CA67AA0 /* Pods-SquishyButton_Example-dummy.m in Sources */,
+				71F0B2998F2A545A5CD349DC580CB3C7 /* SquishyButton-dummy.m in Sources */,
+				2495174F35213BBE779C89B6BB07CE1E /* SquishyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52BF81B766CCBAB14DAED81808F2EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C7769B2DE1220E607E6F4CB9E6256F /* Pods-SquishyButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,49 +461,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5D1A74FAAA1A0A8545B1064F1294A70 /* PBXTargetDependency */ = {
+		9677F20483F0D95CA024626E6A7E5391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BugImageCreator;
+			target = 2933FF347F55024C3807DDAFF1EC5AA7 /* BugImageCreator */;
+			targetProxy = 0623E23B22FD9B36CFA3E2C50C14E95C /* PBXContainerItemProxy */;
+		};
+		A7F045D28EDA539CF4CAF186E9D83CC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SquishyButton;
-			target = 606E06E147DE1A0DB6DB949212C68594 /* SquishyButton */;
-			targetProxy = 1D210B203F04D9F596998B6CF025DE9E /* PBXContainerItemProxy */;
+			target = BFE3E3CF7810A20C1F5E7A3806635127 /* SquishyButton */;
+			targetProxy = 4EF231A8B9C202CBBD9F26D89139D969 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03ACC937686985AE849A488B8FEFA59E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A68F48EB7538335BCA7C528B17A86911 /* Pods-SquishyButton_Example.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SquishyButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SquishyButton_Example/Pods-SquishyButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SquishyButton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -442,40 +514,34 @@
 			};
 			name = Release;
 		};
-		346CE885AB062E21740779BA727A7B95 /* Debug */ = {
+		23FBDEFAE79F3D08C87D94907390E94D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB7EF27B2D1A161FD03FCC6318A4D3F8 /* Pods-SquishyButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 13D8C20A27232E5899281F0C79659549 /* BugImageCreator.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SquishyButton_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BugImageCreator/BugImageCreator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BugImageCreator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SquishyButton_Example/Pods-SquishyButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SquishyButton_Example;
+				MODULEMAP_FILE = "Target Support Files/BugImageCreator/BugImageCreator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BugImageCreator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		35097FE0AD049660E5277AFB822947B9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -510,7 +576,7 @@
 			};
 			name = Release;
 		};
-		357171FFE1A93FB93825457B8C34CBCC /* Release */ = {
+		3A789E7EE54C29575DDA48857762B1A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFBDEB51A61849F1B079CF825053AA5C /* SquishyButton.xcconfig */;
 			buildSettings = {
@@ -538,6 +604,133 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		502441D8D3A4A7874118710185A007FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBDEB51A61849F1B079CF825053AA5C /* SquishyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SquishyButton/SquishyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SquishyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SquishyButton/SquishyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SquishyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57C709F71BD3FB7375E6FA9610EA5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68F48EB7538335BCA7C528B17A86911 /* Pods-SquishyButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SquishyButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SquishyButton_Example/Pods-SquishyButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SquishyButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B7209D1957856B922992DC1C994B0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D8C20A27232E5899281F0C79659549 /* BugImageCreator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BugImageCreator/BugImageCreator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BugImageCreator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BugImageCreator/BugImageCreator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BugImageCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB809597372E39D666C95CDA0D8B0065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7EF27B2D1A161FD03FCC6318A4D3F8 /* Pods-SquishyButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SquishyButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SquishyButton_Example/Pods-SquishyButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SquishyButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D272E16105D03CA86A60895532AE1BF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -614,39 +807,18 @@
 			};
 			name = Debug;
 		};
-		D841828FC0E7BD12415A5FE3719F9F62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFBDEB51A61849F1B079CF825053AA5C /* SquishyButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SquishyButton/SquishyButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SquishyButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SquishyButton/SquishyButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SquishyButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0241894A6AA9F1015C4F1398B64FA817 /* Build configuration list for PBXNativeTarget "SquishyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502441D8D3A4A7874118710185A007FF /* Debug */,
+				3A789E7EE54C29575DDA48857762B1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0BAAD0FA0C23600F36B36C3C6AFD19EA /* Build configuration list for PBXNativeTarget "Pods-SquishyButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -665,20 +837,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C83B4479FF8D691F1BF7D85A61323D5 /* Build configuration list for PBXNativeTarget "Pods-SquishyButton_Example" */ = {
+		6CF003C6182D01B8C50B01169E42F4D2 /* Build configuration list for PBXNativeTarget "BugImageCreator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				346CE885AB062E21740779BA727A7B95 /* Debug */,
-				03ACC937686985AE849A488B8FEFA59E /* Release */,
+				6B7209D1957856B922992DC1C994B0AC /* Debug */,
+				23FBDEFAE79F3D08C87D94907390E94D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A338306305B972770268A3A79EB3F7B1 /* Build configuration list for PBXNativeTarget "SquishyButton" */ = {
+		ACB73B04584759326AD11BF1F194D1B3 /* Build configuration list for PBXNativeTarget "Pods-SquishyButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D841828FC0E7BD12415A5FE3719F9F62 /* Debug */,
-				357171FFE1A93FB93825457B8C34CBCC /* Release */,
+				BB809597372E39D666C95CDA0D8B0065 /* Debug */,
+				57C709F71BD3FB7375E6FA9610EA5367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
