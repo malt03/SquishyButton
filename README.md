@@ -27,7 +27,7 @@ pod "SquishyButton"
 
 ## Author
 
-Koji Murata, koji.murata@dena.com
+Koji Murata, malt.koji@gmail.com
 
 ## License
 

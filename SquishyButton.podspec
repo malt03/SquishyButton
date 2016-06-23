@@ -18,7 +18,7 @@ This button is animated when be pushed and be released.
   s.homepage         = 'https://github.com/malt03/SquishyButton'
   s.screenshots      = 'https://raw.githubusercontent.com/malt03/SquishyButton/master/Screenshot.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Koji Murata' => 'koji.murata@dena.com' }
+  s.author           = { 'Koji Murata' => 'malt.koji@gmail.com' }
   s.source           = { :git => 'https://github.com/malt03/SquishyButton.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
