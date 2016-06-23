@@ -1,0 +1,16 @@
+PODS:
+  - SquishyButton (0.1.0)
+
+DEPENDENCIES:
+  - SquishyButton (from `../`)
+
+EXTERNAL SOURCES:
+  SquishyButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SquishyButton: 19036bc26ccb6fbf03cf95f5453aee588fe07d9f
+
+PODFILE CHECKSUM: 191351d01b2d0d995dd4b6cf276dd731e4514e62
+
+COCOAPODS: 1.0.1
