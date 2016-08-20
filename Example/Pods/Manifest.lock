@@ -1,19 +1,27 @@
 PODS:
-  - BugImageCreator (0.3.0)
-  - SquishyButton (0.1.0)
+  - BugImageCreator (0.4.0-beta1)
+  - SquishyButton (0.2.0-beta1)
 
 DEPENDENCIES:
-  - BugImageCreator
+  - BugImageCreator (from `https://github.com/malt03/BugImageCreator.git`, tag `0.4.0-beta1`)
   - SquishyButton (from `../`)
 
 EXTERNAL SOURCES:
+  BugImageCreator:
+    :git: https://github.com/malt03/BugImageCreator.git
+    :tag: 0.4.0-beta1
   SquishyButton:
     :path: "../"
 
+CHECKOUT OPTIONS:
+  BugImageCreator:
+    :git: https://github.com/malt03/BugImageCreator.git
+    :tag: 0.4.0-beta1
+
 SPEC CHECKSUMS:
-  BugImageCreator: df4712f25538333550477121b5499a0aaf46479f
-  SquishyButton: 19036bc26ccb6fbf03cf95f5453aee588fe07d9f
+  BugImageCreator: 60626f7dd94624d1957318795bd51aa36ff8e8a1
+  SquishyButton: d4019270a52c7c5bbd3b3c42001a1920a594ace3
 
-PODFILE CHECKSUM: b60af831b21d09cd9a860dd59fa2ba6818b0f581
+PODFILE CHECKSUM: f29420f5e59afecad0a4dacdcc8f54759283e31d
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.beta.1

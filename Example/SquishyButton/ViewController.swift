@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
   @IBOutlet weak var button: SquishyButton! {
     didSet {
-      button.setImage(BugImageCreator.create(size: 30, lineWidth: 1, color: .whiteColor()), forState: .Normal)
+      button.setImage(BugImageCreator.create(size: 30, lineWidth: 1, color: .white), for: UIControlState())
     }
   }
 }

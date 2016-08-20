@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'SquishyButton_Example' do
   pod 'SquishyButton', :path => '../'
-  pod 'BugImageCreator'
+  pod 'BugImageCreator', git: 'https://github.com/malt03/BugImageCreator.git', tag: '0.4.0-beta1'
 
   target 'SquishyButton_Tests' do
     inherit! :search_paths
